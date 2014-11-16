@@ -1,1 +1,24 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Test</title>
+
+  </head>
+
+  <body>
+
+    <p>
+      <span class="on" data-closedby="1"><a data-opens="1" data-closes="1">Hello world!</a></span>
+      <span data-openedby="1"><a data-opens="2">1</a></span><span data-openedby="2"> <a data-opens="3">2</a></span><span data-openedby="3"> <a data-opens="4">3</a></span><span data-openedby="4"> <a data-opens="5">4</a></span><span data-openedby="5"> <a data-opens="last">5</a></span>
+    </p>
+
+    <span data-openedby="last"><p>Here is another website: <a href="http://www.google.com" class="outer" target="_blank">External link.</a></p></span>
+
+  </body>
+</html>

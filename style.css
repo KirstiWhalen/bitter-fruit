@@ -1,0 +1,27 @@
+a, a:visited {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+a.clicked {
+    cursor: default;
+    text-decoration: none;
+}
+
+a.outer, a.outer:visited {
+    color: blue;
+}
+
+span {
+    display: none;
+}
+
+.off{
+    display: none;
+}
+.on {
+    display: inline;
+}
+p.on {
+    display: block;
+}
