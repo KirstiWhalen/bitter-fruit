@@ -1,3 +1,14 @@
+p {
+    margin-bottom: 0;
+}
+
+p + p {
+    text-indent: 1.5em;
+    margin-top: 0;
+}
+
+/* p:last-of-type {} */
+
 a, a:visited {
     color: black;
     cursor: pointer;
