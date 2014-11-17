@@ -1,4 +1,5 @@
 a, a:visited {
+    color: black;
     cursor: pointer;
     text-decoration: underline;
 }
