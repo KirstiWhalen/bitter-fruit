@@ -16,15 +16,25 @@ body {
     background-color: #fffff5;
 }
 
+
+
+@media all and (max-width: 62em) {
+    body {
+	width: auto;
+        margin: 0 1em;
+    }
+}
+
 main {
     flex: 1;
     font-size: 110%;
     color: #222;
 }
 
-footer {
+#footer {
     font-size: 80%;
     color: #808080;
+    margin-top: 5vh;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -42,17 +52,17 @@ h1 {
 
 a, a:visited {
     color: #222;
-    background-color: #dddddd;
+    background-color: #e5e5e5;
     cursor: pointer;
     text-decoration: none;
 }
 
 a:hover {
-    background-color: #cdcdcd;
+    background-color: #dcdcdd;
 }
 
 a:active {
-    background-color: #dddddd;
+    background-color: #e5e5e5;
 }
 
 a.clicked {
@@ -62,11 +72,11 @@ a.clicked {
 
 a[rel="external"], a[rel="external"]:visited {
     background-color: transparent;
-    color: blue;
+    color: #3366dd;
     text-decoration: underline;
 }
 
-footer a[rel="external"], a[rel="external"]:visited {
+#footer a[rel="external"], #footer a[rel="external"]:visited {
     background-color: transparent;
     color: #808080;
     text-decoration: underline;
