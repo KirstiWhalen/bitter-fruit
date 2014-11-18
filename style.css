@@ -1,5 +1,5 @@
 * {
-    font-family: serif;
+    font-family: 'PT Serif', serif;
 }
 
 html, body {
@@ -13,15 +13,18 @@ body {
     flex-direction: column;
     width: 60em;
     margin: 0 auto;
+    background-color: #fffff5;
 }
 
 main {
     flex: 1;
+    font-size: 110%;
+    color: #222;
 }
 
 footer {
-    font-size: 75%;
-    color: gray;
+    font-size: 80%;
+    color: #808080;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -38,7 +41,7 @@ h1 {
 }
 
 a, a:visited {
-    color: black;
+    color: #222;
     background-color: #dddddd;
     cursor: pointer;
     text-decoration: none;
@@ -65,7 +68,7 @@ a[rel="external"], a[rel="external"]:visited {
 
 footer a[rel="external"], a[rel="external"]:visited {
     background-color: transparent;
-    color: gray;
+    color: #808080;
     text-decoration: underline;
 }
 
