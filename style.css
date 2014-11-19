@@ -44,9 +44,7 @@ p {
     margin-bottom: 1em;
 }
 
-h1 {
-    font-size: 100%;
-    font-weight: normal;
+p.centered {
     text-align: center;
 }
 
