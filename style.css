@@ -34,7 +34,7 @@ main {
 #footer {
     font-size: 80%;
     color: #808080;
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-bottom: 1em;
     text-align: center;
 }
@@ -86,7 +86,6 @@ span {
     display: none;
 }
 
-/* Dev only */
 .off{
     display: none;
 }
